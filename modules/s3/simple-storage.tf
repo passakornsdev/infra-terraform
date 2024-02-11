@@ -1,10 +1,10 @@
 resource "aws_s3_bucket" "passakorn_bucket" {
-  bucket = "${var.envName}-passakorn-bucket"
+  bucket = "${var.env_name}-passakorn-bucket"
 
   tags = {
     Name        = "My bucket"
-    Environment = var.envName
+    Environment = var.env_name
   }
 }
 
-variable "envName" {}
+variable "env_name" {}

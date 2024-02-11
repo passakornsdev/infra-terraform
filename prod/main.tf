@@ -1,4 +1,4 @@
 module "mod1" {
   source = "../modules/s3"
-  envName = "prod"
+  env_name = "prod"
 }
