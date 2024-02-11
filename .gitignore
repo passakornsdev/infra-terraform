@@ -3,3 +3,8 @@
 /**/.terraform.lock.hcl
 /**/terraform.tfstate
 /**/terraform.tfstate.backup
+/.idea/.gitignore
+/.idea/encodings.xml
+/.idea/infra-terraform.iml
+/.idea/modules.xml
+/.idea/vcs.xml
