@@ -8,3 +8,4 @@
 /.idea/infra-terraform.iml
 /.idea/modules.xml
 /.idea/vcs.xml
+/**/.terraform.tfstate.lock.info
