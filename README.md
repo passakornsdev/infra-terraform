@@ -42,7 +42,7 @@ Then you update main.tf (as example below) to load your desired module and then 
 
 ```terraform
 module "alb-with-asg" {
-  source = "../modules/alb-with-asg"
+  source = "../modules/alb"
   env_name = "dev"
 }
 ```
