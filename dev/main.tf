@@ -1,5 +1,5 @@
 module "alb-with-asg" {
-  source = "../modules/alb"
+  source = "../modules/nlb"
   env_name = "dev"
   first_az = "ap-south-1a"
   second_az = "ap-south-1b"
