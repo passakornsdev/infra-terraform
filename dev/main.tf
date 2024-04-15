@@ -1,7 +1,7 @@
 module "alb-with-asg" {
-  source = "../modules/nlb"
+  source = "../modules/alb"
   env_name = "dev"
-  first_az = "ap-south-1a"
-  second_az = "ap-south-1b"
+  first_az = "ap-southeast-1a"
+  second_az = "ap-southeast-1b"
   httpd_script_path = "../scripts/install_httpd.sh"
 }
